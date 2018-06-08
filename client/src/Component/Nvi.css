@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(252, 247, 247);
+    padding: 0px;
+    margin: 10;
+  }
+  h1, h2, p, ul, li {
+    
+    font-family: sans-serif;
+  }
+  ul.header li {
+   
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+   
+    background-color: rgb(212, 212, 212);
+    padding: 0;
+  }
+  ul.header li a {
+    color: rgb(19, 17, 17);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .content h2 {
+    
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    position: absolute;
+    margin-bottom: 0px;
+  }
+  .active {
+    background-color: rgb(184, 217, 240);
+  }
+  

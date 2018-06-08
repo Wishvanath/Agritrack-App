@@ -1,0 +1,29 @@
+{
+  "name": "agrireact_express_mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Sankar ",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.4",
+    "monk": "^6.0.5",
+    "mysql": "^2.15.0",
+    "pg": "^6.4.2",
+    "pg-promise": "^8.2.2",
+    "redis": "^2.8.0"
+  }
+}

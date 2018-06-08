@@ -1,0 +1,61 @@
+.datasets{
+    font-family: Arial;
+    background-color: rgb(250, 249, 249);
+    overflow: hidden;
+    left: 05;
+    border: 10px solid #ccc;
+    float: right;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 17px;
+    transition: 10s;
+}
+#set{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    } 
+.map {
+        height: 300px;
+}
+       
+@media screen and (min-width: 1024px){
+.map {
+     height: 500px;
+    }
+}
+      
+.map-container{
+height:90vh;
+    
+}
+    
+.mapButton{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ z-index: 10;
+  }
+    
+ #map {
+ top: 10;
+ float:left;
+ bottom:50;
+ right: 10;
+ left: 10;
+ } 
+ 
+ .size{
+    font-family: Arial;
+    background-color: rgb(250, 249, 249);
+    overflow: hidden;
+    left: 10;
+    border: 10px solid #ccc;
+    float: center;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 17px;
+    transition: 10s;
+ }
+    

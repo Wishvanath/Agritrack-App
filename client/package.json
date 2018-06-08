@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "google-maps-react": "^1.1.4",
+    "jquery": "^3.3.1",
+    "react": "^16.2.0",
+    "react-day-picker": "^7.1.6",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "google-maps": "^3.2.1",
+    "webpack": "^3.11.0"
+  },
+  "proxy": "http://localhost:5000/"
+}

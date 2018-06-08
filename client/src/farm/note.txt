@@ -1,0 +1,3 @@
+ --------------file name (Plotmap)-----------
+if any prblm in showing farm then we need to interchange the lat and lng positions.
+
